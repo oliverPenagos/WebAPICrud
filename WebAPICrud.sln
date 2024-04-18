@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPICrud", "WebAPICrud\WebAPICrud.csproj", "{A77F265D-9733-44CE-B567-9DE2391FE480}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WebAPICrud.Core", "WebAPICrud.Core\WebAPICrud.Core.shproj", "{26D5EB9C-DDB8-4E7F-9356-7703D7C7B6D9}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WebAPICrud.Models", "WebAPICrud.Models\WebAPICrud.Models.shproj", "{EF1D1D8B-5EA9-453F-9891-1A5BD5B7CBC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A77F265D-9733-44CE-B567-9DE2391FE480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77F265D-9733-44CE-B567-9DE2391FE480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77F265D-9733-44CE-B567-9DE2391FE480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77F265D-9733-44CE-B567-9DE2391FE480}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92FFB6F2-D7F5-4D89-AF87-1B0EBA5AD8A5}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		WebAPICrud.Core\WebAPICrud.Core.projitems*{26d5eb9c-ddb8-4e7f-9356-7703d7c7b6d9}*SharedItemsImports = 13
+		WebAPICrud.Core\WebAPICrud.Core.projitems*{a77f265d-9733-44ce-b567-9de2391fe480}*SharedItemsImports = 5
+		WebAPICrud.Models\WebAPICrud.Models.projitems*{a77f265d-9733-44ce-b567-9de2391fe480}*SharedItemsImports = 5
+		WebAPICrud.Models\WebAPICrud.Models.projitems*{ef1d1d8b-5ea9-453f-9891-1a5bd5b7cbc2}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
